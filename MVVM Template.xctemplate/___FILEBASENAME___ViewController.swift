@@ -11,11 +11,6 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     }
 
     var viewModel: ___VARIABLE_productName___ViewModel?
-
-    func bind() {
-        guard let viewModel = viewModel else { return }
-
-    }
 }
 
 // MARK: - Setup Views
@@ -24,10 +19,8 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
     private func setupViews() {
         setupLocalization()
     }
-    
-    private func setupLocalization() {
-        
-    }
+
+    private func setupLocalization() { }
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
