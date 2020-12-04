@@ -6,7 +6,6 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        bind()
         setupViews()
     }
 
@@ -25,6 +24,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
     static func instantiate() -> Self? {
-        return UIStoryboard(name: "___VARIABLE_productName___Controller", bundle: nil).instantiateViewController(withIdentifier: "___VARIABLE_productName___Controller") as? Self
+        return UIStoryboard(name: "___VARIABLE_productName___Controller", bundle: nil)
+            .instantiateViewController(withIdentifier: "___VARIABLE_productName___Controller") as? Self
     }
 }

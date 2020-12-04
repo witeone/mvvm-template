@@ -19,7 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Type, ___FIL
 
     var inputs: ___FILEBASENAMEASIDENTIFIER___Inputs { get { return self } set {} }
     var outputs: ___FILEBASENAMEASIDENTIFIER___Outputs { get { return self } set {} }
-    
+
     private let coordinator: ___VARIABLE_productName___CoordinatorType
 
     init(coordinator: ___VARIABLE_productName___CoordinatorType) {
